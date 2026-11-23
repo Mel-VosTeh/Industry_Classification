@@ -1,0 +1,5 @@
+source_system,source_code,target_system,target_code,mapping_type,provenance,confidence
+FIC_A,A11,FIC_B,B11,exact,Fictional portfolio crosswalk v1,0.95
+FIC_A,A12,FIC_B,B12,broader,Fictional portfolio crosswalk v1,0.70
+FIC_A,A21,FIC_B,B21,related,Fictional portfolio crosswalk v1,
+FIC_A,A21,FIC_B,B11,related,Fictional portfolio crosswalk v1,0.60

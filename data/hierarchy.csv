@@ -1,0 +1,12 @@
+system,parent_code,child_code
+FIC_A,A,A1
+FIC_A,A1,A11
+FIC_A,A1,A12
+FIC_A,A,A2
+FIC_A,A2,A21
+FIC_A,A2,A22
+FIC_B,B,B1
+FIC_B,B1,B11
+FIC_B,B1,B12
+FIC_B,B,B2
+FIC_B,B2,B21

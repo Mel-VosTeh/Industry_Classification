@@ -1,0 +1,14 @@
+system,code,name
+FIC_A,A,Production and services
+FIC_A,A1,Manufacturing
+FIC_A,A11,Precision instrument manufacturing
+FIC_A,A12,Recycled packaging manufacturing
+FIC_A,A2,Technical services
+FIC_A,A21,Instrument repair services
+FIC_A,A22,Prototype consulting
+FIC_B,B,Enterprise activities
+FIC_B,B1,Industrial products
+FIC_B,B11,Precision instruments
+FIC_B,B12,Sustainable materials
+FIC_B,B2,Equipment services
+FIC_B,B21,Instrument maintenance
