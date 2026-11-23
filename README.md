@@ -207,24 +207,3 @@ did not fail the tests.
 Docker was unavailable, so image startup, live Cypher execution, database loading,
 and the opt-in integration test could not be verified here.
 
-## Tradeoffs and interview discussion
-
-Tables remain a natural input and can represent these relationships with joins
-and recursive queries. A graph approach can help when the work centers on varying
-depth traversals, crosswalk navigation, and connecting multiple systems. This
-project makes no measured performance claims and does not benchmark alternatives.
-
-Useful talking points grounded in this implementation:
-
-- Why node identity is composite, and why relationship direction matters.
-- How pre-validation, a uniqueness constraint, transactions, and MERGE work together.
-- Why connected mapping groups are not equivalence classes.
-- How strongly connected components expose hierarchy cycles.
-- Why CSV deletion needs a separate reconciliation design rather than an upsert.
-
-Limitations: small fictional data, one mapping per directed pair, no versioned
-classification releases, no automated mapping inference, no human review workflow,
-no concurrency guarantees for loaders, and in-memory NetworkX extraction unsuitable
-for arbitrarily large graphs. Dependencies use compatible version ranges rather
-than a full reproducibility lock. The example is a personal learning artifact;
-any description of professional experience should distinguish it from prior work.
